@@ -72,7 +72,7 @@ We were also able to achieve our cost goal of $100. When adding together the cos
 
 The design is also very portable. The device weighs less than 0.5kg, fits in a 15x15x15cm footprint, and can be removed and attached in less than 30 seconds.  
 
-Although we were unable to achieve our battery life goal, the battery can still last 4.3 hours (Fig. 7) in high mode, the least power efficient mode. This is a far cry from the intended 12 hours, but is still enough for long rides. 
+Although we were unable to achieve our battery life goal, the battery can still last nearly 4 hours (Fig. 7) in high mode, the least power efficient mode. This is a far cry from the intended 12 hours, but is still enough for long rides. 
 
 #### Battery Life
 
