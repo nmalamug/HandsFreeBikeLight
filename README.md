@@ -1,7 +1,7 @@
 # Hands Free Bike Light - Engineering Design Project
 Nicolas Malamug, Barrett Schenk, Andrew Jedrey, Bailey Bishoff
 
-[Original Documentation](https://docs.google.com/document/d/1f6muXlzhTEeYJNFR2FhOeGfwLaKzY07SjDTWxh5QQRY/edit)
+[Original Documentation](https://docs.google.com/document/d/1f6muXlzhTEeYJNFR2FhOeGfwLaKzY07SjDTWxh5QQRY)
 
 <img src="./images/BikeLightTitle.jpg" width="50%" height="50%">
 
