@@ -25,7 +25,7 @@ The goal is to design a product to project a headlight for bike riders to ensure
 
 #### Bike Light Objectives
 
-<img src="./images/BikeLightObjectives.png" width="50%" height="50%">
+<img src="./images/BikeLightObjectives.png">
 
 ## Design
 
@@ -34,13 +34,13 @@ As an overview, the Bike Beam is a small bike light, which has three main modes,
 
 ### Systems Glass Box
 
-<img src="./images/BikeLightGlassBox.png" width="60%" height="60%">
+<img src="./images/BikeLightGlassBox.png">
 
 For light sensing, we decided to use a cutting-edge BH1750 light sensor for its precision and responsiveness to changing light intensities. Paired with a microcontroller, voltage regulator, and a MOSFET, we were able to use the light sensor to modulate the light level of a 10W LED (Fig. 5). By modulating the levels of the 10W LED, less power is used in automatic mode, thus saving electricity and extending battery life. 
 
 #### Circuit Diagram
 
-<img src="./images/BikeLightCircuit.png" width="40%" height="40%">
+<img src="./images/BikeLightCircuit.png">
 
 There was also much innovative design in the software. In order to make the light accurately adjust to surrounding light levels, a moving average was used. Another advantage of using a moving average is that the Bike Beam is less sensitive to noisy or quick-changing lighting conditions than potential competitors, while still being highly adaptable and responsive. 
 
@@ -60,7 +60,7 @@ The light is also very versatile, and is able to provide 3 lux of illumination 1
 
 #### Light Level Testing
 
-<img src="./images/BikeLightBrightnessTest.png" width="50%" height="50%">
+<img src="./images/BikeLightBrightnessTest.png">
 
 Durability was tested through water spray in all different directions. The device continued to function after continuous spray from all directions, achieving the IPX rating of 4. 
 
@@ -68,7 +68,7 @@ We were also able to achieve our cost goal of $100. When adding together the cos
 
 #### Costs Breakdown
 
-<img src="./images/BikeLightCosts.png" width="50%" height="50%">
+<img src="./images/BikeLightCosts.png">
 
 The design is also very portable. The device weighs less than 0.5kg, fits in a 15x15x15cm footprint, and can be removed and attached in less than 30 seconds.  
 
@@ -76,5 +76,5 @@ Although we were unable to achieve our battery life goal, the battery can still 
 
 #### Battery Life
 
-<img src="./images/BikeLightPowerBudget.jpg" width="50%" height="50%">
+<img src="./images/BikeLightPowerBudget.jpg">
 
