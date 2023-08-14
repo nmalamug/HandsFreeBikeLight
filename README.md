@@ -1,5 +1,10 @@
 # Hands Free Bike Light - Engineering Design Project
 Nicolas Malamug, Barrett Schenk, Andrew Jedrey, Bailey Bishoff
+
+## Dependencies
+
+[BH 1750 Sensor Library](https://github.com/Starmbi/hp_BH1750)
+
 ## Executive Summary
 
 Biking is now seen as a fast, environmentally friendly option to cars and travel on foot. However, it comes with its own set of dangers. Biking at night carries heavy risks, especially with unseen obstacles like pedestrians, cars, and bumps on the road. Though there are many bike lights on the market, they are often large, clunky to use, and rely on non rechargeable batteries. Because of this, we decided to design the Bike Beam, a small, hands-free, auto-brightness-adjustable, power-efficient, rechargeable bike light. 
