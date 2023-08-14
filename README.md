@@ -2,7 +2,7 @@
 Nicolas Malamug, Barrett Schenk, Andrew Jedrey, Bailey Bishoff
 ## Executive Summary
 
-Biking is now seen as a fast, environmentally friendly option to cars and travel on foot. However, it comes with its own set of dangers. Biking at night carries heavy risks, especially with unseen obstacles like pedestrians, cars, and bumps on the road. Though there are many bike lights on the market, they are often large, clunky to use, and rely on non rechargeable batteries. Because of this, we decided to design the Bike Beam, a small, hands-free, power-efficient, rechargeable bike light. 
+Biking is now seen as a fast, environmentally friendly option to cars and travel on foot. However, it comes with its own set of dangers. Biking at night carries heavy risks, especially with unseen obstacles like pedestrians, cars, and bumps on the road. Though there are many bike lights on the market, they are often large, clunky to use, and rely on non rechargeable batteries. Because of this, we decided to design the Bike Beam, a small, hands-free, auto-brightness-adjustable, power-efficient, rechargeable bike light. 
 
 In order to design and manufacture such a product, much research was required to choose parts and layouts. In our finalized design, we used an ABS Housing, a 10W LED, a BH1750 light sensor, a 3000mA hour battery, a quick release clamp, and an Arduino Uno as the main components. The Arduino was used to modulate the light’s power based on the lighting conditions, gathered from the readings on the BH1750 light sensor. 
 
