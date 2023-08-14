@@ -12,7 +12,7 @@ Through testing, we determined the Bike Beam provides adequate lighting at a dis
 
 In a city, biking tends to be a quick, environmentally friendly alternative to cars. Biking at night, however, comes with its own host of challenges. The road becomes dark, and impediments like people and cars become more difficult to see. Focus is a finite resource, and it is important to conserve its use. To tackle this issue, we decided to design the Bike Beam. 
 
-The goal is to design a product to project a headlight for bike riders to ensure clear vision in various lighting conditions. The key objectives for our bike light design include illuminating road impediments, projecting a spotlight of a minimum of 3 lux at 15 meters away with a 3-meter spot diameter, having a long battery life providing at least 3 hours in high power mode, operating hands-free, can fit in 15x15x15cm box, and is easily and quickly attachable and removable from handlebars in under 30 seconds (Fig. 2).
+The goal is to design a product to project a headlight for bike riders to ensure clear vision in various lighting conditions. The human eye can make out objects with a brightness of 3 lux. Therefore, the key objectives for our bike light design include illuminating road impediments, projecting a spotlight of a minimum of 3 lux at 15 meters away with a 3-meter spot diameter. We also wanted the light to have a long battery life providing at least 3 hours in high power mode, operate hands-free, fit in 15x15x15cm box, and quickly attach/remove from handlebars in under 30 seconds (Fig. 2).
 
 ## Design
 
