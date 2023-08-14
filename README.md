@@ -74,7 +74,7 @@ The design is also very portable. The device weighs less than 0.5kg, fits in a 1
 
 #### Housing Sketch
 
-<img src="./images/BikeLightHousing.jpg">
+<img src="./images/BikeLightHousing.jpg" width="80%" height="80%">
 
 Although we were unable to achieve our battery life goal, the battery can still last nearly 4 hours (Fig. 7) in high mode, the least power efficient mode. This is a far cry from the intended 12 hours, but is still enough for long rides. 
 
