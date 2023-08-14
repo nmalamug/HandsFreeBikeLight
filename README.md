@@ -1,6 +1,10 @@
 # Hands Free Bike Light - Engineering Design Project
 Nicolas Malamug, Barrett Schenk, Andrew Jedrey, Bailey Bishoff
 
+[Original Documentation](https://docs.google.com/document/d/1f6muXlzhTEeYJNFR2FhOeGfwLaKzY07SjDTWxh5QQRY/edit)
+
+<img src="./images/BikeLightTitle.jpg" width="50%" height="50%">
+
 ## Dependencies
 
 [BH 1750 Sensor Library](https://github.com/Starmbi/hp_BH1750)
@@ -19,12 +23,24 @@ In a city, biking tends to be a quick, environmentally friendly alternative to c
 
 The goal is to design a product to project a headlight for bike riders to ensure clear vision in various lighting conditions. The human eye can make out objects with a brightness of 3 lux. Therefore, the key objectives for our bike light design include illuminating road impediments, projecting a spotlight of a minimum of 3 lux at 15 meters away with a 3-meter spot diameter. We also wanted the light to have a long battery life providing at least 3 hours in high power mode, operate hands-free, fit in 15x15x15cm box, and quickly attach/remove from handlebars in under 30 seconds (Fig. 2).
 
+#### Bike Light Objectives
+
+<img src="./images/BikeLightObjectives.png" width="50%" height="50%">
+
 ## Design
 
 In order to increase rider focus on the road, and thus rider safety, the Bike Beam comes with a host of innovative and important design elements.
 As an overview, the Bike Beam is a small bike light, which has three main modes, rotated using a push-button. The device starts in “automatic” mode, and push buttons allow a switch to “high” or “low” modes. While high and low modes output a specified amount of light (good for riding in fog or otherwise inadequate conditions for automatic mode), the automatic mode adjusts the brightness of the device based on the surrounding lighting conditions. When a rider’s surroundings are darker, a brighter beam will be projected.
 
+### Systems Glass Box
+
+<img src="./images/BikeLightGlassBox.png" width="60%" height="60%">
+
 For light sensing, we decided to use a cutting-edge BH1750 light sensor for its precision and responsiveness to changing light intensities. Paired with a microcontroller, voltage regulator, and a MOSFET, we were able to use the light sensor to modulate the light level of a 10W LED (Fig. 5). By modulating the levels of the 10W LED, less power is used in automatic mode, thus saving electricity and extending battery life. 
+
+#### Circuit Diagram
+
+<img src="./images/BikeLightCircuit.png" width="40%" height="40%">
 
 There was also much innovative design in the software. In order to make the light accurately adjust to surrounding light levels, a moving average was used. Another advantage of using a moving average is that the Bike Beam is less sensitive to noisy or quick-changing lighting conditions than potential competitors, while still being highly adaptable and responsive. 
 
@@ -42,11 +58,23 @@ The first metric we verified was the ease of use of the device. As the device ha
 
 The light is also very versatile, and is able to provide 3 lux of illumination 10 meters away. This was tested using the brightness levels of the light at certain distances, and extrapolating to 10 meters. We were able to achieve a brightness level of 3.2 lux at 10m (Fig. 9). 
 
+#### Light Level Testing
+
+<img src="./images/BikeLightBrightnessTest.png" width="50%" height="50%">
+
 Durability was tested through water spray in all different directions. The device continued to function after continuous spray from all directions, achieving the IPX rating of 4. 
 
 We were also able to achieve our cost goal of $100. When adding together the cost of all components in our design, we get a total cost of $98.83 (Table 1).
 
+#### Costs Breakdown
+
+<img src="./images/BikeLightCosts.png" width="50%" height="50%">
+
 The design is also very portable. The device weighs less than 0.5kg, fits in a 15x15x15cm footprint, and can be removed and attached in less than 30 seconds.  
 
 Although we were unable to achieve our battery life goal, the battery can still last 4.3 hours (Fig. 7) in high mode, the least power efficient mode. This is a far cry from the intended 12 hours, but is still enough for long rides. 
+
+#### Battery Life
+
+<img src="./images/BikeLightPowerBudget.jpg" width="50%" height="50%">
 
